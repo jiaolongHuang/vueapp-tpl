@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+		<title>Your Title</title>
+
+		<link href="/build/styles.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<!--[if lt IE 9]>
+		<style media="screen">
+			p{
+				-webkit-font-smoothing: antialiased;
+				font-family: 'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+				font-size: 18px;
+				text-align: center;
+				margin: 200px 0;
+				line-height: 40px;
+			}
+			p span{
+				color: gray;
+				font-size: 16px;
+			}
+			p a{
+				color: #63BF72;
+				font-weight: bold;
+				text-decoration: none;
+				margin: 0 3px;
+			}
+		</style>
+		<div class="">
+			<p>
+				Sorry，不支持您当前的浏览器
+				<br>
+				<span>
+					请使用<a href="http://chrome.360.cn/" target="_blank">360极速</a>或<a href="https://www.google.com/chrome" target="_blank">Google Chrome</a>浏览器
+				</span>
+			</p>
+		</div>
+		<![endif]-->
+
+		<![if (gte IE 9) | (!IE)]>
+			<div id="app-wrap"></div>
+			<script src="/build/vendor.js"></script>
+			<script src="/build/index.js"></script>
+		<![endif]>
+	</body>
+</html>
