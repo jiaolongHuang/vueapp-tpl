@@ -4,7 +4,11 @@ import VueRouter from 'vue-router'
 import routes from './config/routers.js'
 import App from './views/app.vue'
 
-// 引入vue-router
+const components = [
+  VueRouter
+]
+
+// 引入vue-router及其他组件
 components.forEach((item) => {
   Vue.use(item);
 });

@@ -1,3 +1,0 @@
-export deafult {
-	noSideList: ['/qdetail']
-}

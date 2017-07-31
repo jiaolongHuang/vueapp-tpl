@@ -4,7 +4,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const os = require('os');
+
 // hjl: tree-sharking需要和UglifyJsPlugin配合使用; 使用CDN之后意义不大
 const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin');
 
@@ -23,7 +23,7 @@ module.exports = {
 	},
 	resolve: {
     // hjl: vue-router, "module"对应着es6写法的输出
-    mainFields: ['module', 'main'],
+    mainFields: ['browser', 'module', 'main'],
     modules: [path.resolve(__dirname, "src"), path.resolve(__dirname, "node_modules")],
 	  extensions: ['.js', '.vue'],
 	  alias: {

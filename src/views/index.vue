@@ -1,5 +1,6 @@
 <template>
 	<div id="index" class="index">
+    this is in index view
 		<div class="main-wrap" :class="{'noShowNav': !showNav}">
       <router-view></router-view>
 			<com-footer></com-footer>
@@ -14,8 +15,6 @@
 		name: 'index',
 		data () {
 			return {
-				pclist: [],
-				mobilelist: [],
 				showNav: true
 			}
 		},
@@ -42,7 +41,6 @@
 		methods: {
 		},
 		components: {
-			ComSide,
 			ComFooter
 		}
 		
