@@ -1,5 +1,5 @@
 import Index from '../views/index.vue'
-import Test from '../views/test.vue'
+import Blue from '../views/Blue.vue'
 import _404 from '../views/404.vue'
 
 import { goLogin as UTILS_GoLogin } from 'UTILS_HELPER'
@@ -14,9 +14,9 @@ const routers = [{
     next();
   },
   children: [{
-  	path: 'test',
-    name: 'test',
-  	component: Test
+  	path: 'blue',
+    name: 'blue',
+  	component: Blue
   }]
 },{
     path: '*',

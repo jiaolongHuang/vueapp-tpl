@@ -1,6 +1,6 @@
 <template>
 	<div id="index" class="index">
-    this is in index view
+   	<p>Hello, Index View</p>
 		<div class="main-wrap" :class="{'noShowNav': !showNav}">
       <router-view></router-view>
 			<com-footer></com-footer>
@@ -47,4 +47,7 @@
 	}
 </script>
 <style scoped>
+p{
+	font-size: 24px;
+}
 </style>

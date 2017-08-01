@@ -1,6 +1,6 @@
 <template>
 	<div id="app" class="app">
-    app view
+    <p>App View</p>
 		<router-view></router-view>
 	</div>
 </template>
@@ -26,6 +26,9 @@
 		}
 	}
 </script>
-<style>
-
+<style scoped>
+p{
+	font-size: 24px;
+  margin-bottom: 20px;
+}
 </style>

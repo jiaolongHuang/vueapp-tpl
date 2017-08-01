@@ -19,7 +19,7 @@ module.exports = {
 footer{
 	position: absolute;
 	bottom: 0;
-	left: 180px;
+	left: 0px;
 	right: 0;
   padding: 10px 30px;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
