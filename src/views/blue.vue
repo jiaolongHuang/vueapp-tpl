@@ -1,6 +1,6 @@
 <template>
 	<div id="blue">
-	  <p>I`m in blue view.</p>
+	  <p>I`m content of blue view. Back to <router-link :to="{ name: 'index'}">Index view</router-link></p>
 	</div>
 </template>
 

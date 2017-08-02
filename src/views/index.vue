@@ -1,6 +1,7 @@
 <template>
 	<div id="index" class="index">
-   	<p>Hello, Index View</p>
+   	<p>Hello, Index View. Go <router-link :to="{ name: 'blue'}">blue view</router-link></p>
+    
 		<div class="main-wrap" :class="{'noShowNav': !showNav}">
       <router-view></router-view>
 			<com-footer></com-footer>

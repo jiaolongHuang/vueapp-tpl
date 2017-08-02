@@ -28,7 +28,7 @@ npm run build:ie8
 开发模式下：
 
 * 打开`http://localhost:8300`，可以查看`/` 路由下对应的页面
-* 打开`http://localhost:8300/blue`，可以查看`/blue` 路由下对应的页面，以验证路由配置。
+* 打开`http://localhost:8300/blue`，也可以查看`/blue` 路由下对应的页面，以验证路由配置。
 
 ## 文件命名规范
 | 文件夹 |作用|
