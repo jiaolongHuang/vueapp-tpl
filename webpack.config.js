@@ -30,9 +30,7 @@ module.exports = {
 	  	//You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build
       'vue': process.env.NODE_ENV === 'production' ? 'vue/dist/vue.min.js' : 'vue/dist/vue.js',
       'axios': 'axios/dist/axios.min.js',
-      'API_HELPER': path.resolve(__dirname, "src/helpers/api.js"),
-      'BUS_HELPER': path.resolve(__dirname, "src/helpers/bus.js"),
-      'UTILS_HELPER': path.resolve(__dirname, "src/helpers/utils.js")
+      'HELPER': path.resolve(__dirname, "src/helpers")
     }
 	},
 	module: {
