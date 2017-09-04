@@ -22,7 +22,7 @@ const router = new VueRouter({
 
 
 new Vue({
-	el: '#app-wrap',
+  el: '#app-wrap',
   router,
   template:'<App/>',
   components:{App}
