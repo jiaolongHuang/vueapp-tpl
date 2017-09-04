@@ -1,29 +1,29 @@
 <template>
-	<header class="header">
-		header
-	</header>
+  <header class="header">
+    header
+  </header>
 </template>
 
 
 <script>
-	import'./header.css'
+  import'./header.css'
 
 
-	export default {
-		name: 'header',
-		data: function() {
-			
-		},
+  export default {
+    name: 'header',
+    data: function() {
+      
+    },
 
-		methods:{
-			showSide () {
-	
+    methods:{
+      showSide () {
+  
 
-			},
-			Logout() {
+      },
+      Logout() {
 
-			}
-		}
-	}
+      }
+    }
+  }
 
 </script>
