@@ -18,11 +18,6 @@ open http://127.0.0.1:8300
 ```
 npm run build
 ```
-* 发布兼容IE<9的生产版本
-
-```
-npm run build:ie8
-```
 
 ## 查看效果：
 开发模式下：

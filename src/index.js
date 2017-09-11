@@ -5,26 +5,26 @@ import routes from './config/routers.js'
 import App from './views/app.vue'
 
 const components = [
-  VueRouter
+	VueRouter
 ]
 
 // 引入vue-router及其他组件
 components.forEach((item) => {
-  Vue.use(item);
+	Vue.use(item);
 });
 
 
 // 实例化vue-router
 const router = new VueRouter({
-    mode: 'history',
-    routes
+		mode: 'history',
+		routes
 });
 
 
 new Vue({
-  el: '#app-wrap',
-  router,
-  template:'<App/>',
-  components:{App}
+	el: '#app-wrap',
+	router,
+	template:'<App/>',
+	components:{App}
 })
 
