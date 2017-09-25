@@ -156,6 +156,7 @@ if (process.env.NODE_ENV === 'production') {
 			// headers: {hosts: ''},
 			secure: false
 		}],
-		historyApiFallback: true
+		historyApiFallback: true,
+		disableHostCheck: true
 	}
 }
