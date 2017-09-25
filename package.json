@@ -5,8 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "webpack-dev-server --inline --hot --quiet --host 0.0.0.0 --port 8300",
-		"build:ie8": "BABEL_ENV=ie8 cross-env NODE_ENV=production webpack --progress --hide-modules --colors --profile",
-		"build": "BABEL_ENV=production cross-env NODE_ENV=production webpack --progress --hide-modules --colors --profile"
+		"build:ie8": "cross-env BABEL_ENV=ie8 NODE_ENV=production webpack --progress --hide-modules --colors --profile",
+		"build": "cross-env NODE_ENV=production BABEL_ENV=production webpack --progress --hide-modules --colors --profile"
 	},
 	"author": "",
 	"license": "ISC",
